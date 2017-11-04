@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/style2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_hdoor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/face"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/num"
+                android:layout_width="50dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#eeeef4"
+                android:textSize="20dp"
+                android:background="@drawable/style"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/name"
+                android:layout_width="250dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#eeeef4"
+                android:textSize="20dp"
+                android:background="#dd1321"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="تسجيل الحضور"
+        android:textColor="#eeeef4"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-32dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/chechbox_hdor"
+        android:background="@drawable/style"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="تسجيل الغياب"
+        android:textColor="#eeeef4"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-32dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/chechbox_ghyab"
+        android:background="@drawable/style"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="انـهـاء"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/style"
+            android:textColor="#fff"
+            android:id="@+id/login_finish"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="تسجيل"
+            android:background="@drawable/style"
+            android:textColor="#fff"
+            android:id="@+id/login_hdoor"/>
+    </LinearLayout>
+
+    <TextView
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="70dp"
+    android:layout_marginTop="20dp"
+    android:text="عدد الحضور"
+    android:textColor="#eeeef4"
+    android:textSize="20dp"
+    android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/num_hdoor"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-25dp"
+        android:background="@drawable/style"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:text="عدد الغياب"
+        android:textColor="#eeeef4"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/style"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/num_ghyab"/>
+</LinearLayout>

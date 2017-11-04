@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Presence"
+        android:icon="@drawable/hdor"
+        android:title="الـحضور" />
+
+
+    <item
+        android:id="@+id/pay"
+        android:icon="@drawable/daf3"
+        android:title="الدفع" />
+
+    <item
+        android:id="@+id/mark"
+        android:icon="@drawable/grade"
+        android:title="الدرجات" />
+
+</menu>

@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cm.teacher.BlankFragment"
+    android:background="@drawable/back">
+
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:layout_gravity="center"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adUnitId="ca-app-pub-9566226877101037/7656799605"
+        ads:adSize="340x490">
+    </com.google.android.gms.ads.NativeExpressAdView>
+
+</FrameLayout>
